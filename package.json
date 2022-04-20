@@ -1,0 +1,17 @@
+{
+  "name": "frontend-assessment-questions-test",
+  "description": "assessment test",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jest": "^27.5.0"
+  },
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "scripts": {
+    "test": "jest --runInBand js",
+    "coverage": "jest --collectCoverageFrom=js/**.js --coverage js"
+  },
+  "dependencies": {}
+}
